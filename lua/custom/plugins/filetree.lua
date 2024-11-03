@@ -14,8 +14,8 @@ return {
     vim.keymap.set('i', 'ntc', '<ESC>:Neotree close<CR>', { silent = true }) -- Insert mode
     vim.keymap.set('v', 'ntc', '<ESC>:Neotree close<CR>', { silent = true }) -- Visual mode
     
-    vim.keymap.set('n', 'nto', ':Neotree open<CR>', { silent = true }) -- Normal mode
-    vim.keymap.set('i', 'nto', '<ESC>:Neotree open<CR>', { silent = true }) -- Insert mode
-    vim.keymap.set('v', 'nto', '<ESC>:Neotree open<CR>', { silent = true }) -- Visual mode
+    vim.keymap.set('n', 'nto', ':Neotree show<CR>', { silent = true }) -- Normal mode
+    vim.keymap.set('i', 'nto', '<ESC>:Neotree show<CR>', { silent = true }) -- Insert mode
+    vim.keymap.set('v', 'nto', '<ESC>:Neotree show<CR>', { silent = true }) -- Visual mode
   end,
 }
